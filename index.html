@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locked</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Lock image styling-->
+    <style>
+        .custom-image {
+            max-width: 100%;
+            height: auto;
+            width: 300px; /* Adjust the width as needed */
+        }
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+
+    <!-- Custom CSS for navbar -->
+    <style>
+        /* Body styling */
+        body {
+            background-color: #D1BB9E;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar specific styling */
+        .navbar {
+            background-color: black;
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+
+        .navbar a svg {
+            fill: white;
+        }
+
+        .text-body-secondary, .text-body-emphasis, .link-body-emphasis {
+            color: white !important;
+        }
+
+        /* Footer specific styling */
+        footer .text-body-secondary {
+            color: white !important;
+        }
+
+        footer .nav-link {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a href="index.html"></a>
+        <a class="navbar-brand" href="index.html">Locked</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./About.html">About Locked</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Header -->
+<div class="container center-container">
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">Welcome to Locked</h1>
+            <img src="Do.png" alt="Centered Image" class="custom-image">
+            <h1>We are on a mission to fight phone addiction</h1>
+            <h5>Click on the link below to download our app from the app store</h5>
+            <p>placeholder</p>
+        </div>
+    </div>
+</div>
+
+<!-- Client Email Enter -->
+
+<div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Get In Touch</h1>
+            <p class="col-lg-10 fs-4">Enter your contact information to get in touch with us</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" action="https://formsubmit.co/darrelljustice34@gmail.com" method="POST">
+                <div class="form-floating mb-3">
+                    <input type="text" name="name" class="form-control" id="floatingFirst" placeholder="name@example.com" required>
+                    <label for="floatingFirst">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingLast" placeholder="name@example.com" required>
+                    <label for="floatingLast">Email</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="How can we help you?" id="floatingTextarea" style="height: 100px"></textarea>
+                    <label for="floatingTextarea">How can we help you?</label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Get In Touch</button>
+                <hr class="my-4">
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--
+<form action="https://formsubmit.co/darrelljustice34@gmail.com" method="POST">
+    <input type="text" name="name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <button type="submit">Send</button>
+</form>
+-->
+
+
+
+<!-- Footer -->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2023 Locked Industries</p>
+
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="About.html" class="nav-link px-2 text-body-secondary">About Locked</a></li>
+        </ul>
+    </footer>
+</div>
+
+<!-- Scripts for email and for JS -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.elasticemail.com", // Can remove host, username, and password once we get a domain name,
+            Username : "", // We will be able to encrypt using a SecureToken from SmptJS.com
+            Password : "", // Add back in when website goes live
+            To : '',
+            From : document.getElementById("floatingEmail").value,
+            Subject : "New Client Enquiry",
+            Body : "First Name: " + document.getElementById("floatingFirst").value
+                + "<br> Last Name: " + document.getElementById("floatingLast").value
+                + "<br> Email: " + document.getElementById("floatingEmail").value
+                + "<br> Message: " + document.getElementById("floatingTextarea").value
+        }).then(
+            message => alert("This feature is off due to the site being under development :)")
+        );
+    }
+</script>
+<script src="index.js"></script>
+</body>
+</html>

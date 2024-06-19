@@ -1,0 +1,106 @@
+#cameraLogo{
+    color:white;
+    padding-right:5px;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+/* Set the background color */
+body {
+    background-color: #D1BB9E;
+    color: white; /* Set the default text color to white */
+}
+
+/* Ensure that all heading elements also have white text */
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+/* Ensure that all paragraph elements have white text */
+p {
+    color: white;
+}
+
+/* Ensure that all link elements have white text */
+a {
+    color: white;
+}
+
+/* Navbar specific styling */
+.navbar {
+    background-color: black; /* Set navbar background color to black */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-toggler-icon,
+.navbar-nav .nav-link.active {
+    color: white !important; /* Set navbar text color to white */
+}
+
+/* Lock icon in navbar */
+.navbar a svg {
+    fill: white; /* Set lock icon color to white */
+}
+
+/* Ensure that Bootstrap-specific text classes also have white text */
+.text-body-secondary, .text-body-emphasis, .link-body-emphasis {
+    color: white !important;
+}
+
+/* Footer specific styling */
+footer .text-body-secondary {
+    color: white !important;
+}
+
+footer .nav-link {
+    color: white !important;
+}
+
+#foundersection{
+    background: #D1BB9E;
+}
+
+
+.TestCards{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+@media (max-width:576px){
+    #AboutMeSmall{
+        justify-content:center;
+    }
+}
+
+@media (max-width:576px){
+    #PortNav > div > li > a{
+        height:100px;
+    }
+}
+
+@media (max-width:576px){
+    .HalfScreen{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+
+    }
+}
+@media (min-width:577px) {
+    .HalfScreen {
+        margin-left: 25%;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
